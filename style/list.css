@@ -1,0 +1,9 @@
+ul {
+  list-style-type: disc;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin: 3px 1px 3px 35px;
+}
