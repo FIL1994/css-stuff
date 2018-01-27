@@ -18,6 +18,7 @@
     "webpack-dev-server": "2.11.1"
   },
   "dependencies": {
-    "reset-css": "^2.2.1"
+    "reset-css": "^2.2.1",
+    "css-grid-system-library": "git://github.com/CodyReeves/css-grid-system-library.git"
   }
 }

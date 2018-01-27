@@ -1,21 +1,94 @@
 body {
-    background-color: #f9f9f9;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  }
-  
-  header {
-    background-color: cadetblue;
-    padding: 3px 5px;
-    height: 80px;
-    border-bottom: 1px solid black;
-  }
-  
-  footer {
-    background-color: cadetblue;
-    padding: 3px 5px;
-    height: 50px;
-    border-top: 1px solid black;
-  }
+  background-color: #f9f9f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+header {
+  background-color: cadetblue;
+  padding: 3px 5px;
+  min-height: 45px;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  background-color: cadetblue;
+  padding: 3px 5px;
+  height: 50px;
+  border-top: 1px solid black;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 0px;
+}
+
+.grid.gap {
+  grid-gap: 5px;
+}
+
+.col-1 {
+  grid-column: 1;
+}
+
+.col-2 {
+  grid-column: 2;
+}
+
+.col-3 {
+  grid-column: 3;
+}
+
+.col-4 {
+  grid-column: 4;
+}
+
+.col-5 {
+  grid-column: 5;
+}
+
+.col-6 {
+  grid-column: 6;
+}
+
+.col-7 {
+  grid-column: 7;
+}
+
+.col-8 {
+  grid-column: 8;
+}
+
+.col-9 {
+  grid-column: 9;
+}
+
+.col-10 {
+  grid-column: 10;
+}
+
+.col-11 {
+  grid-column: 11;
+}
+
+.col-12 {
+  grid-column: 12;
+}
+
+.col-second, .col-half {
+  grid-column: 1/ 7;
+}
+
+.col-third {
+  grid-column: 12/3;
+}
+
+.col-fourth, .col-quarter {
+  grid-row-start: row1-start;
+  grid-column-end: five;
+}
 
 #site {
   display: -webkit-flex;
