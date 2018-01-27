@@ -1,3 +1,8 @@
 # css-stuff
 
-using the ExtractTextPlugin for css
+### using:
+<ul>
+  <li>ExtractTextPlugin</li>
+  <li>CSS Grid</li>
+  <li>Reset CSS</li>
+</ul>
