@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "build": "webpack"
+    "build": "webpack; ./scripts/build.sh"
   },
   "author": "Philip Van Raalte",
   "license": "ISC",

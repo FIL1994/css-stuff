@@ -5,4 +5,5 @@ import "../style/grid.css";
 import "../style/helpers.css";
 import "../style/list.css";
 import "../style/loader.css";
+import "../style/image.css";
 import "../style/site.css";

@@ -1,0 +1,7 @@
+img {
+  position: relative;
+  vertical-align: middle;
+  background-color: transparent;
+  max-width: 100%;
+  display: inline-block;
+}
